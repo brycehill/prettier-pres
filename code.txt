@@ -1,0 +1,260 @@
+Start with 
+
+[1 ,   3]
+
+
+AST
+
+{
+  "type": "File",
+  "start": 0,
+  "end": 10,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 2,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 10,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 2,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "start": 0,
+        "end": 9,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 9
+          }
+        },
+        "expression": {
+          "type": "ArrayExpression",
+          "start": 0,
+          "end": 9,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 9
+            }
+          },
+          "elements": [
+            {
+              "type": "NumericLiteral",
+              "start": 1,
+              "end": 2,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 1
+                },
+                "end": {
+                  "line": 1,
+                  "column": 2
+                }
+              },
+              "extra": {
+                "rawValue": 1,
+                "raw": "1"
+              },
+              "value": 1
+            },
+            {
+              "type": "NumericLiteral",
+              "start": 7,
+              "end": 8,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 7
+                },
+                "end": {
+                  "line": 1,
+                  "column": 8
+                }
+              },
+              "extra": {
+                "rawValue": 3,
+                "raw": "3"
+              },
+              "value": 3
+            }
+          ]
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}
+
+Documents
+
+{
+  "type": "concat",
+  "parts": [
+    {
+      "type": "concat",
+      "parts": [
+        {
+          "type": "concat",
+          "parts": [
+            {
+              "type": "concat",
+              "parts": [
+                {
+                  "type": "concat",
+                  "parts": [
+                    {
+                      "type": "concat",
+                      "parts": [
+                        {
+                          "type": "concat",
+                          "parts": [
+                            {
+                              "type": "concat",
+                              "parts": [
+                                {
+                                  "type": "concat",
+                                  "parts": [
+                                    {
+                                      "type": "group",
+                                      "contents": {
+                                        "type": "concat",
+                                        "parts": [
+                                          "[",
+                                          {
+                                            "type": "indent",
+                                            "contents": {
+                                              "type": "concat",
+                                              "parts": [
+                                                {
+                                                  "type": "line",
+                                                  "soft": true
+                                                },
+                                                {
+                                                  "type": "concat",
+                                                  "parts": [
+                                                    {
+                                                      "type": "concat",
+                                                      "parts": []
+                                                    },
+                                                    {
+                                                      "type": "group",
+                                                      "contents": {
+                                                        "type": "concat",
+                                                        "parts": [
+                                                          "1"
+                                                        ]
+                                                      },
+                                                      "break": false
+                                                    },
+                                                    {
+                                                      "type": "concat",
+                                                      "parts": [
+                                                        ",",
+                                                        {
+                                                          "type": "line"
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": "group",
+                                                      "contents": {
+                                                        "type": "concat",
+                                                        "parts": [
+                                                          "3"
+                                                        ]
+                                                      },
+                                                      "break": false
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          },
+                                          "",
+                                          {
+                                            "type": "if-break",
+                                            "breakContents": ""
+                                          },
+                                          "",
+                                          {
+                                            "type": "line",
+                                            "soft": true
+                                          },
+                                          "]"
+                                        ]
+                                      },
+                                      "break": false
+                                    },
+                                    "",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            ";"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "",
+            {
+              "type": "concat",
+              "parts": [
+                {
+                  "type": "line",
+                  "hard": true
+                },
+                {
+                  "type": "break-parent"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+ l
+
+Documents
+
+There are more operators in Prettier than in the paper since code has more options than a 
+simple data structure
+
+
+Prettier
+
+[1, 3];

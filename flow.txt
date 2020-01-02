@@ -1,0 +1,12 @@
+Prettier
+  - What is it
+  - Why
+  - How?
+    - String of code -> Parse into AST -> Convert AST nodes to documents -> Format -> Print
+  Parse
+    - Prettier infers this from filetype, but you can build your own
+    - JS uses babylon, scss uses post-css
+    - AST
+  Convert AST nodes to documents
+  Format
+
